@@ -1,0 +1,1 @@
+A project to rebuild the Google homepage, to practice HTML and CSS.
