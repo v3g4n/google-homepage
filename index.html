@@ -7,21 +7,58 @@
   <link href="./styles.css" rel="stylesheet">
   <title>Google</title>
 </head>
+
 <body>
-  <div class="container">
-    <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-  </div>
-  <div class="container">  
-    <form id="search-form" action="www.google.com/search">
-        <div class="container">
-            <input id="query" type="text" name="q">
-        </div>
-        
-        <div class="container">
-            <button id="search">Google Search</button>
-        </div>
-       
-    </form>
-  </div> 
-    
+  <header>
+    <nav>
+      <ul class="left">
+        <li>About</li>
+        <li>Store</li>
+      </ul>
+      <ul class="right">
+        <li>Gmail</li>
+        <li>Images</li>
+        <li id="apps"></li>
+        <li>
+          <button>Sign in</button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+    </div>
+    <div class="container">  
+      <form id="search-form" action="https://www.google.com/search">
+          <div id="search-bar" class="container">
+              
+              <input id="query" type="text" name="q">
+          
+          </div>
+          <div class="container">
+              <button class="search-btn">Google Search</button>
+              <button class="search-btn">I'm Feeling Lucky</button>
+          </div>
+      </form>
+    </div> 
+  </main>
+
+  <footer>
+    <nav>
+      <ul class="left">
+        <li>Advertising</li>
+        <li>Business</li>
+        <li>How Search works</li>
+      </ul>
+      <ul class="right">
+        <li>Privacy</li>
+        <li>Terms</li>
+        <li>Settings</li>
+      </ul>
+    </nav>
+  </footer>
+
+</body>
 </html>

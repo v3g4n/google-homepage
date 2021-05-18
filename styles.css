@@ -51,11 +51,13 @@ table {
 /* My Styles */
 
 body {
-    margin: 5em;
-}
-
-div {
-    margin: .3em;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+	font-family: arial, sans-serif;
+	font-size: small;
+	color: #222;
 }
 
 #logo {
@@ -74,8 +76,102 @@ div {
 #search-form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
+#search-form div {
+	display: flex;
+}
 
+
+.left {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.right {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+li {
+	padding: .2em;
+}
+
+footer {
+	height: 40px;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	position: fixed;
+	padding-right: 1em;
+	padding-left: 1em;
+	background-color: #f2f2f2;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+header {
+	height: 30px;
+	padding: 1em;
+}
+
+main {
+	height: 80%;
+	padding: 10%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+#search-bar {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px;
+	border: 1px solid #dfe1e5;
+	border-radius: 24px;
+	height: 44px;
+	width: 482px;
+}
+
+input {
+	border: 0;
+	width: 100%;
+}
+
+.search-btn {
+	margin-top: .5em;
+	margin-right: .2em;
+	margin-left: .2em;
+	height: 36px;
+	min-width: 54px;
+	color: #5F6368;
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 4px;
+}
+
+li {
+	line-height: 24px;
+	padding: 5px;
+}
+
+li button {
+	background-color: #4583eb;
+	color: #fff;
+	font-weight: bold;
+	font-size: 13px;
+	border: none;
+	border-radius: 0;
+	padding: 5px 10px;
+}
+
+#apps {
+	background-image: url('//web.archive.org/web/20191130234759im_/https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+	-webkit-background-size: 528px 68px;
+	background-size: 528px 68px;
+}
