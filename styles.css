@@ -108,6 +108,8 @@ footer {
 	padding-right: 1em;
 	padding-left: 1em;
 	background-color: #f2f2f2;
+	font-size: 14px;
+	color: #5f6368;
 }
 
 nav {
@@ -118,6 +120,18 @@ nav {
 header {
 	height: 30px;
 	padding: 1em;
+}
+
+header nav .right a {
+	opacity: .85;
+	text-decoration: none;
+	color: #000;
+}
+
+header nav .left a {
+	opacity: .75;
+	text-decoration: none;
+	color: #000;
 }
 
 main {
@@ -175,3 +189,4 @@ li button {
 	-webkit-background-size: 528px 68px;
 	background-size: 528px 68px;
 }
+
