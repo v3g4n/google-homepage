@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
   <link href="./styles.css" rel="stylesheet">
   <title>Google</title>
 </head>
@@ -20,7 +20,7 @@
       <ul class="right">
         <li><a href="https://mail.google.com/mail/&ogbl">Gmail</a></li>
         <li><a href="https://www.google.ca/imghp?hl=en&ogbl">Images</a></li>
-        <li><a href="https://www.google.ca/intl/en/about/products"><span class="material-icons">apps</span></a></li>
+        <li><a href="https://www.google.ca/intl/en/about/products"><span id="apps" class="material-icons">apps</span></a></li>
         <li>
           <button>Sign in</button>
         </li>
@@ -35,8 +35,9 @@
     <div class="container">  
       <form id="search-form" action="https://www.google.com/search">
           <div id="search-bar" class="container">
-              
-              <input id="query" type="text" name="q">
+            <span class="material-icons-outlined">search</span>
+            <input id="query" type="text" name="q">
+            <span class="material-icons-outlined">mic</span>
           
           </div>
           <div class="container">
